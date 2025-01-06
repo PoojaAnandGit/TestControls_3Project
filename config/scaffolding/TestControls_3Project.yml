@@ -19,6 +19,11 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: PoojaAnandGit
   gitBranch: main
+- name: DesignerStepsInCloudEditorPackageWithoutRepeat
+  gitServerName: test
+  gitUrl: https://github.com/santhu736852
+  gitUsername: PoojaAnandGit
+  gitBranch: main
 services:
 - serviceName: project.testcontrols_3.integrations:DSICE
   packages:
