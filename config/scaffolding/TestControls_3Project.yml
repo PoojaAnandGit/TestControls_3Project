@@ -8,17 +8,51 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: testAssetsOnPrem_2
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: DesignerStepsInCloudEditorPackage
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/santhu736852
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: DesignerStepsInCloudEditorTxPipelinePackage
+  version: "1.0"
   gitServerName: test
   gitUrl: https://github.com/santhu736852
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testcontrols_3.integrations:DSICE
+  packages:
+  - name: TestControls_3Project
+    version: "1.0"
+  - name: DesignerStepsInCloudEditorTxPipelinePackage
+    version: "1.0"
+  - name: DesignerStepsInCloudEditorPackage
+    version: "1.0"
+  - name: testAssetsOnPrem_2
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
+- serviceName: DSICE:ChildFlow
+  packages:
+  - name: DesignerStepsInCloudEditorPackage
+    version: "1.0"
