@@ -7,8 +7,3 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
-- name: testAssetsOnPrem_2
-  gitServerName: test
-  gitUrl: https://github.com/PoojaAnandGit
-  gitUsername: PoojaAnandGit
-  gitBranch: main
