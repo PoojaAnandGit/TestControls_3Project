@@ -13,12 +13,6 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
-- name: DesignerStepsInCloudEditorPackage
-  version: "1.0"
-  gitServerName: test
-  gitUrl: https://github.com/santhu736852
-  gitUsername: PoojaAnandGit
-  gitBranch: main
 - name: DesignerStepsInCloudEditorTxPipelinePackage
   version: "1.0"
   gitServerName: test
